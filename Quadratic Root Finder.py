@@ -1,5 +1,5 @@
 # Python 3.5.2
-# Functions Examples
+# Mathematical Function Examples
 
 # Compute the smaller root of a quadratic equation.
 def smaller_root(a, b, c):
@@ -14,11 +14,11 @@ def smaller_root(a, b, c):
             smaller = discriminant_sqrt
         return (-b + smaller) / (2 * a)
 
-# Test
-def test(a, b, c):
-    print ("The smaller root of " + str(a) + "x^2 + " + str(b) + "x + " + str(c)) 
-    print (str(smaller_root(a, b, c)))       
+# Compute the area of polygon with equal sides
+def area(number_of_sides, side_length):
+    return (number_of_sides * side_length ** 2) / (4 * math.tan(math.pi/n))
 
-test(1, 2, 3)
-test(5, 3, -20)
-test(4, 24, 2)
+# Test
+print (smaller_root(1, 2, 3))
+print (smaller_root(4, 24, 2))
+print (area(7, 3))
