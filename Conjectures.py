@@ -1,5 +1,7 @@
 # Python 3.5.2
-# The Collatz Conjecture - Recursive
+# TITLE: Conjectures
+
+# 1. The Collatz Conjecture - Recursive
 # Prints the Collatz Conjecture for integer n.
 #
 # Given any initial natural number, consider the sequence 
@@ -48,8 +50,5 @@ collatz(1)
 collatz(7)
 collatz(17)
 
-# Some other problem cases
-#collatz("A String")
-#collatz('c')
-#collatz(3.14)
-
+# 2 - Some Other Conjecture
+# Other information.

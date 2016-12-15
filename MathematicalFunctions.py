@@ -14,6 +14,11 @@ def smaller_root(a, b, c):
             smaller = discriminant_sqrt
         return (-b + smaller) / (2 * a)
 
+# Compute the area of a rectangle.
+def rectangle_area(base, height):     
+    area = base * height 
+    return area
+
 # Compute the area of polygon with equal sides
 def area(number_of_sides, side_length):
     return (number_of_sides * side_length ** 2) / (4 * math.tan(math.pi/n))
